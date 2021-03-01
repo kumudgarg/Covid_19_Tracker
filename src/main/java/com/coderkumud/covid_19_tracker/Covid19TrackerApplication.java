@@ -2,8 +2,10 @@ package com.coderkumud.covid_19_tracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class Covid19TrackerApplication {
 
 	public static void main(String[] args) {
